@@ -8,34 +8,34 @@ public class Main {
     public static void main(String [] args){
 
         Glumac g1 = new Glumac("Pero","Peric",new Date(1999,12,12),Pol.MUSKI);
-        Glumac g2 = new Glumac("Misko","Peric",new Date(1999,12,12),Pol.MUSKI);
-        Glumac g3 = new Glumac("Rajo","Peric",new Date(1999,12,12),Pol.MUSKI);
-        Glumac g4 = new Glumac("Slavko","Peric",new Date(1999,12,12),Pol.MUSKI);
-        Glumac g5 = new Glumac("Nikola","Peric",new Date(1999,12,12),Pol.MUSKI);
-        Glumac g6 = new Glumac("Milan","Peric",new Date(1999,12,12),Pol.MUSKI);
-        Glumac g7 = new Glumac("Jelena","Peric",new Date(1999,12,12),Pol.ZENSKI);
-        Glumac g8 = new Glumac("Grozdana","Peric",new Date(1999,12,12),Pol.ZENSKI);
-        Glumac g9 = new Glumac("Koviljka","Peric",new Date(1999,12,12),Pol.ZENSKI);
-        Glumac g10 = new Glumac("Marina","Peric",new Date(1999,12,12),Pol.ZENSKI);
-        Glumac g11 = new Glumac("Marta","Peric",new Date(1999,12,12),Pol.ZENSKI);
-        Glumac g12 = new Glumac("Sanja","Peric",new Date(1999,12,12),Pol.ZENSKI);
-        Glumac g13 = new Glumac("Borko","Peric",new Date(1999,12,12),Pol.MUSKI);
-        Glumac g14 = new Glumac("Zivko","Peric",new Date(1999,12,12),Pol.MUSKI);
-        Glumac g15 = new Glumac("Jevdjen","Peric",new Date(1999,12,12),Pol.MUSKI);
+        Glumac g2 = new Glumac("Misko","Jovic",new Date(1999,12,12),Pol.MUSKI);
+        Glumac g3 = new Glumac("Rajo","Simic",new Date(1999,12,12),Pol.MUSKI);
+        Glumac g4 = new Glumac("Slavko","Ruzic",new Date(1999,12,12),Pol.MUSKI);
+        Glumac g5 = new Glumac("Nikola","Gagic",new Date(1999,12,12),Pol.MUSKI);
+        Glumac g6 = new Glumac("Milan","Mirovic",new Date(1999,12,12),Pol.MUSKI);
+        Glumac g7 = new Glumac("Jelena","Popovic",new Date(1999,12,12),Pol.ZENSKI);
+        Glumac g8 = new Glumac("Grozdana","Jovanovic",new Date(1999,12,12),Pol.ZENSKI);
+        Glumac g9 = new Glumac("Koviljka","Gadza",new Date(1999,12,12),Pol.ZENSKI);
+        Glumac g10 = new Glumac("Marina","Mitrovic",new Date(1999,12,12),Pol.ZENSKI);
+        Glumac g11 = new Glumac("Marta","Kljajic",new Date(1999,12,12),Pol.ZENSKI);
+        Glumac g12 = new Glumac("Sanja","Zecevic",new Date(1999,12,12),Pol.ZENSKI);
+        Glumac g13 = new Glumac("Borko","Kotromanic",new Date(1999,12,12),Pol.MUSKI);
+        Glumac g14 = new Glumac("Zivko","Balsic",new Date(1999,12,12),Pol.MUSKI);
+        Glumac g15 = new Glumac("Jevdjen","Mrkic",new Date(1999,12,12),Pol.MUSKI);
 
 
         Reziser r1 = new Reziser("Zivko","Mirkovic",new Date(1982,11,11),Pol.MUSKI,12);
-        Reziser r2 = new Reziser("Krsto","Mirkovic",new Date(1982,11,11),Pol.MUSKI,31);
-        Reziser r3 = new Reziser("Srdjan","Mirkovic",new Date(1982,11,11),Pol.MUSKI,2);
-        Reziser r4 = new Reziser("Vlado","Mirkovic",new Date(1982,11,11),Pol.MUSKI,11);
-        Reziser r5 = new Reziser("Nebojsa","Mirkovic",new Date(1982,11,11),Pol.MUSKI,5);
-        Reziser r6 = new Reziser("Ivana","Mirkovic",new Date(1982,11,11),Pol.ZENSKI,17);
-        Reziser r7 = new Reziser("Jovana","Mirkovic",new Date(1982,11,11),Pol.ZENSKI,4);
-        Reziser r8 = new Reziser("jovan","Mirkovic",new Date(1982,11,11),Pol.MUSKI,1);
-        Reziser r9 = new Reziser("Nemanja","Mirkovic",new Date(1982,11,11),Pol.MUSKI,8);
-        Reziser r10 = new Reziser("Marko","Mirkovic",new Date(1982,11,11),Pol.MUSKI,12);
+        Reziser r2 = new Reziser("Krsto","Misic",new Date(1982,11,11),Pol.MUSKI,31);
+        Reziser r3 = new Reziser("Srdjan","Juric",new Date(1982,11,11),Pol.MUSKI,2);
+        Reziser r4 = new Reziser("Vlado","Stankovic",new Date(1982,11,11),Pol.MUSKI,11);
+        Reziser r5 = new Reziser("Nebojsa","Bubalo",new Date(1982,11,11),Pol.MUSKI,5);
+        Reziser r6 = new Reziser("Ivana","Rokvic",new Date(1982,11,11),Pol.ZENSKI,17);
+        Reziser r7 = new Reziser("Jovana","Kazic",new Date(1982,11,11),Pol.ZENSKI,4);
+        Reziser r8 = new Reziser("jovan","Rodic",new Date(1982,11,11),Pol.MUSKI,1);
+        Reziser r9 = new Reziser("Nemanja","Bogdanovic",new Date(1982,11,11),Pol.MUSKI,8);
+        Reziser r10 = new Reziser("Marko","Ristic",new Date(1982,11,11),Pol.MUSKI,12);
         Reziser r11 = new Reziser("Filip","Mirkovic",new Date(1982,11,11),Pol.MUSKI,11);
-        Reziser r12 = new Reziser("Uros","Mirkovic",new Date(1982,11,11),Pol.MUSKI,7);
+        Reziser r12 = new Reziser("Uros","Ciric ",new Date(1982,11,11),Pol.MUSKI,7);
 
 
         Kriticar k1 = new Kriticar("Mitar","Mitrovic",12);
@@ -114,6 +114,7 @@ public class Main {
         k7.pohvali(k3);
 
         FilmskaAkademija akademija = new FilmskaAkademija();
+        akademija.MIN_REJTING = 0;
         akademija.nominuj(f1);
         akademija.nominuj(f5);
         akademija.nominuj(f4);
@@ -137,6 +138,8 @@ public class Main {
         akademija.nominuj(g9);
         akademija.nominuj(g8);
         akademija.nominuj(g2);
+
+
 
 
         akademija.objaviNominacije();

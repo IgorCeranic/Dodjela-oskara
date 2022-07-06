@@ -13,7 +13,7 @@ public class Reziser extends ClanEkipe implements Comparable<Reziser>{
     @Override
     public void odrziGovor() {
         //System.out.println("Reziser " + ime + " " + prezime + " se zahvaljje svima za primljenog oskara. Ocekivano nema sta da se prica...");
-        System.out.println("Reziser " + toString() + " se zahvaljje svima za primljenog oskara. Ocekivano nema sta da se prica...");
+        System.out.println("Reziser " + toString() + " se zahvaljje svima za primljenog oskara....");
     }
 
     @Override

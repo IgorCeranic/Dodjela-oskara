@@ -103,7 +103,7 @@ public class Film implements Nominovan, Comparable<Film>{
     @Override
     public void primiOskara() {
         Reziser predstavnik = getPredstavnik();
-        System.out.println("U ime cijele filmske ekipe : ");
+        System.out.println("U ime cijele ekipe filma koji je dobio oskara, predstavnik : ");
         predstavnik.odrziGovor();
         //System.out.println("Reziser  prima oskara i ushiceno se svima zahvaljuje, zna da nije zasluzeno i da mu je poslednji ... al ipak je srecan");
 

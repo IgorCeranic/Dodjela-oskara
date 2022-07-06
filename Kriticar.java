@@ -1,5 +1,6 @@
 package ZadatakOskar;
 
+
 public class Kriticar {
     String ime;
     String prezime;
@@ -9,6 +10,7 @@ public class Kriticar {
         this.ime = ime;
         this.prezime = prezime;
         if (reputacija> 100){
+            //throw new ReputacijaOutOfRange();
             reputacija =100;
         }
         this.reputacija = reputacija;
